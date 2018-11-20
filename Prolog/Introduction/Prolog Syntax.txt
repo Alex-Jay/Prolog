@@ -1,0 +1,23 @@
+Keywords:
+Trace - How Prolog finds the answer to: parent(Y, ann), parent(X, Y). (Find grandparent of ann)
++ Rename variables e.g. X = _1, Y = _2
++ Match functor, amount of arguments and argument contents
+
+| Prolog | Logic | Keyword |
+============================
+|    %   |  COM  | COMMENT |
+----------------------------
+|    ;   |   V   |   OR    |
+----------------------------
+|    ,   |   ^   |   AND   |
+----------------------------
+|   :-   |   <-  | PROVID. |
+----------------------------
+|    _   |  VAR  | VARIAB. |
+----------------------------
+|   CAPS |  VAR  | VARIAB. |
+----------------------------
+|   !    |  TRUE |   CUT   |
+----------------------------
+|   =..  |   -   |  UNIV   |
+----------------------------

@@ -1,0 +1,16 @@
+mother(X,Y) <- [p(X,Y)^f(X)]
+
+mother(X, bob)
+-> X = _1
+-> {mother(_1, bob)}
+
+-> {p(_1, bob), f(_1)}
+-> parent(pam, bob) -> TRUE
+
+-> _1 = pam
+
+-> {f(pam)} -> TRUE
+
+-> {}
+
+SOLN: X = pam
